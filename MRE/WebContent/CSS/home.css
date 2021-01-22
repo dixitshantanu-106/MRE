@@ -1,0 +1,215 @@
+
+body {font-family: "Roboto", sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=number], input[type=password],input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+.l {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: transparent;
+  color: white;
+  padding: 8px 12px;
+  margin: 8px 0;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+ font-family: "Roboto", sans-serif;
+}
+.log{
+  background-color: rgba(0, 128, 0, 0.65);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.log1 {
+  background-color: rgba(0, 128, 0, 0.65);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer; 
+  opacity: 0.9;
+}
+cancelbtn:hover,.log1:hover {
+  opacity:2;
+}
+
+.log:hover {
+  opacity: 0.8;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.cancelbtn1 {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.cancelbtn1, .log1{
+  float: left;
+  width: 50%;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin-top: 5px;
+  position: relative;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+}
+.modal-content1 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+
+t1
+{
+    padding-bottom: 10px;
+    font-size: 15px;
+    
+}
+
+span{
+    color: red;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+h2,h4{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #888888;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+     border-radius: 10px;
+  }
+}
+.cancelbtn
+{
+    border-radius: 10px;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn1, .log1 {
+     width: 100%;
+  }
+}
+
+

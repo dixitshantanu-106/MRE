@@ -1,0 +1,17 @@
+.main-nav input
+{
+    font-family: "Roboto", sans-serif;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+.main-nav input
+{
+    border: 0px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.main-nav input:hover
+{
+    border: 2px solid white;
+}

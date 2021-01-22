@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../IMG/bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.date{
+  width: 300px;
+  padding: 20px;
+  box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.76);
+  background: url("../IMG/bg.png");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+}
+.date h1{
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: #fff;
+  font-size: 40px;
+}
+.l{
+  width: 40%;
+  margin-top: 15px;
+  background: rgb(217, 228, 235);
+  text-align: center;
+  border-radius: 8px;
+  font-family: cursive;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  transition: all 0.4s ease-in;
+    
+}
+.date a1{
+    color: white;
+    font-size: 25px;
+    text-align: start;
+    
+}
+
+.txtb{
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(220, 245, 237, 0.69);
+    color: black;
+    border-radius: 20px;;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ada5a5;
+    outline: none;
+}
+
+.date input{
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: "montserrat",sans-serif;
+}
+
+.btn{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: rgba(14, 255, 227, 0.6);
+  color: #fff;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.btn:hover{
+  transform: scale(0.96);
+}
+

@@ -1,0 +1,140 @@
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+body{
+ font-family: arial;
+ background-color:rgba(201, 190, 171, 0.46);
+
+}
+
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     color: black;
+     border-radius: 5px; 
+     box-shadow: 1px 1px 20px black;
+     margin: 2%;
+    }
+.card:hover{
+    box-shadow: 2px 2px 15px #5d7fcc;
+    transition: all 0.3s ease-in;
+}
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px; 
+ }
+
+.title{
+    background-color: white;
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+button:hover{
+  background-color: #5d7fcc;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+
+.top h1
+{
+    color: rgb(108, 108, 108);
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.back
+{
+    
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 5px 10px;
+    
+}
+
+.back li a:hover
+{
+    color: white;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px 5px;
+    background: rgba(136, 133, 203, 0.87);
+    transition: all 0.4s ease-in;
+}
+
+.back li a
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav input
+{
+    float: right;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-right: 30px;
+    transition: none;
+    color: black;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.main-nav input:hover
+{
+    color: white;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background: rgba(136, 133, 203, 0.87);
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
